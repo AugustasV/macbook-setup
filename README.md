@@ -16,7 +16,7 @@ Installing Homebrew script
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 installing some dependencies, git, zsh, zsh plugins.
 
-    brew install python3 git htop screenfetch aws-console mackup terraform kubernetes-cli helm zsh zsh-autosuggestions zsh-syntax-highlighting curl wget
+    brew install python3 git htop screenfetch aws-console kubernetes-cli helm zsh zsh-autosuggestions zsh-syntax-highlighting curl wget tfenv
 
     source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -29,4 +29,4 @@ Macos terminal is so bairbone...  had to install iTerm2.
 Used to adjust volume for each application running on my system, so had to install background-music for this purpose. 
 My external mouse back and forward mouse buttons doesn't worked, so had to install sensiblesidebuttons, that program fixed the issue.
 
-    brew install --cask docker vscodium vlc obs time-out virtualbox rectangle tor-browser slack lens iterm2 skitch firefox zoom alfred pycharm background-music send-anywhere sensiblesidebuttons
+    brew install --cask firefox brave docker vscodium virtualbox rectangle slack lens iterm2 skitch zoom alfred brave background-music send-anywhere sensiblesidebuttons
