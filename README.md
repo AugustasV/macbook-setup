@@ -1,4 +1,3 @@
-
 ## Macbook Setup
 
   
@@ -16,7 +15,7 @@ Installing Homebrew script
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 installing some dependencies, git, zsh, zsh plugins.
 
-    brew install python3 git htop screenfetch aws-console kubernetes-cli helm zsh zsh-autosuggestions zsh-syntax-highlighting curl wget tfenv
+    brew install bash jq python3 go utm git htop screenfetch aws-console aws-cli aws-vault kubernetes-cli helm zsh zsh-autosuggestions zsh-syntax-highlighting curl wget tfenv
 
     source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -24,11 +23,16 @@ installing some dependencies, git, zsh, zsh plugins.
 adding plugins to zsh file.
 
     source ~/.zshrc
-Right now have to install additional programs. Sure, MacOs virtual desktops are great, but I used to have 4 different windows on one screen by default. Rectangle works great.
+Right now have to install additional programs. Sure, MacOs virtual desktops are great, but I used to have 4 different windows on one screen by default. Rectangle works great for that purpose
 
 macOS terminal is so barebone...  had to install iTerm2. 
-Used to adjust the volume for each application running on my system, so had to install background-music for this purpose. 
 
 My external mouse back and forward mouse buttons didn't work by default, so had to install sensiblesidebuttons, that program fixed the issue.
 
-    brew install --cask firefox brave docker vscodium virtualbox rectangle slack lens iterm2 skitch zoom alfred brave background-music send-anywhere sensiblesidebuttons
+    brew install --cask firefox brave visual-studio-code rectangle slack lens iterm2 zoom sensiblesidebuttons
+
+hashicrop vault install and enable as service
+
+    brew tap hashicorp/tap
+    brew install hashicorp/tap/vault
+    brew services start hashicorp/tap/vault
