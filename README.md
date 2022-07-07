@@ -15,7 +15,7 @@ Installing Homebrew script
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 installing some dependencies, git, zsh, zsh plugins.
 
-    brew install bash jq python3 go utm git htop screenfetch aws-console aws-cli aws-vault kubernetes-cli helm zsh zsh-autosuggestions zsh-syntax-highlighting curl wget tfenv
+    brew install bash jq python3 go utm git htop  aws-console aws-vault kubernetes-cli helm zsh zsh-autosuggestions zsh-syntax-highlighting curl wget tfenv
 
     source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -25,13 +25,13 @@ adding plugins to zsh file.
     source ~/.zshrc
 Right now have to install additional programs. Sure, MacOs virtual desktops are great, but I used to have 4 different windows on one screen by default. Rectangle works great for that purpose
 
-macOS terminal is so barebone...  had to install iTerm2. 
+macOS terminal is so bare bone...  had to install iTerm2. 
 
 My external mouse back and forward mouse buttons didn't work by default, so had to install sensiblesidebuttons, that program fixed the issue.
 
     brew install --cask firefox brave visual-studio-code rectangle slack lens iterm2 zoom sensiblesidebuttons
 
-hashicrop vault install and enable as service
+Hashicrop vault install and enable as service
 
     brew tap hashicorp/tap
     brew install hashicorp/tap/vault
