@@ -15,7 +15,7 @@ Installing Homebrew script
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 installing some dependencies, git, zsh, zsh plugins.
 
-    brew install bash jq python3 go utm git htop  aws-console aws-vault kubernetes-cli helm zsh zsh-autosuggestions zsh-syntax-highlighting curl wget tfenv
+    brew install zsh-autocomplete bash grep node@14 jq python3 go utm git htop aws-cli aws-vault kubernetes-cli helm zsh zsh-autosuggestions zsh-syntax-highlighting curl wget tfenv
 
     source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -29,7 +29,7 @@ macOS terminal is so bare bone...  had to install iTerm2.
 
 My external mouse back and forward mouse buttons didn't work by default, so had to install sensiblesidebuttons, that program fixed the issue.
 
-    brew install --cask firefox brave visual-studio-code rectangle slack lens iterm2 zoom sensiblesidebuttons
+    brew install --cask firefox docker visual-studio-code rectangle slack lens iterm2 zoom sensiblesidebuttons
 
 Hashicrop vault install and enable as service
 
