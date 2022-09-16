@@ -1,0 +1,18 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "editor.accessibilitySupport": "on",
+    "telemetry.telemetryLevel": "off",
+    "files.autoSave": "afterDelay",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": false
+    },
+    "vs-kubernetes": {
+        "vscode-kubernetes.minikube-path.mac": "/Users/$USER/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+    },
+    "go.toolsManagement.autoUpdate": true
+}
